@@ -1,0 +1,158 @@
+* {
+	font-family: Segoe UI;
+	margin: 0px;
+	padding: 0px;
+	}
+
+body {
+	width: 100%;
+}
+
+h1 {
+	font-style: italic;
+	color: rgba(0, 200, 250, 1);
+}
+
+#header {
+	position: fixed;
+	z-index: 3;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 0px 50px 250px rgba(255, 255, 255, 1);
+}
+
+#upper-bar {
+	height: 20px;
+	background-color: rgba(0, 200, 250, 1);
+}
+
+ul li {
+	list-style: none;
+	float: left;
+	left: 100px;
+}
+
+ul {
+	position: relative;
+	width: 80%;
+	left: 20%;
+	right: 20%;
+	top: 20px;
+}
+
+#brand {
+	position: relative;
+	font-size: 50px;
+	font-style: italic;
+	color: rgba(0, 200, 250, 1);
+	width: 100%;
+}
+
+.circle {
+	position: relative;
+	left: 20px;
+	margin: 20px 0px 0px 5px;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+
+#blue {
+	background-color: rgba(0, 200, 250, 1);
+}
+
+#green {
+	background-color: rgba(50, 210, 150, 1);
+}
+
+#pink {
+	background-color: rgba(250, 100, 200, 1);
+}
+
+#main-container {
+	position: relative;
+	//background-color: black;
+	top: 0px;
+	height: 2000px;
+	width: 80%;
+	margin: 0px 20% 0px 20%;
+	transition: all 0.5s;
+}
+
+#main-container * {
+	position: relative;
+}
+
+.col {
+	position: relative;
+	left: 50px;
+	width: 80%;
+}
+
+.col * {
+	position: relative;
+	float: left;
+}
+
+.row {
+	position: relative;
+	margin-bottom: -120px;
+}
+
+.row * {
+	position: relative;
+}
+
+#Iam {
+	font-size: 550px;
+}
+
+#web-designer {
+	font-size: 85px;
+	left: -50px;
+}
+
+#about {
+	top: 135px;
+	left: -50px;
+	font-size: 30px;
+	font-weight: 100;
+	color: rgba(0, 200, 250, 1);
+}
+
+.block {
+	overflow: hidden;
+	top: 209px;
+	margin: 0px 33px 33px 0px;
+	height: 385px;
+	width: 300px;
+	transform: skewX(-12deg);
+	background-color: rgba(0, 200, 250, 1);
+	transition: all 0.15s;
+}
+
+.block p {
+	position: absolute;
+	left: 30px;
+	top: 10px;
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	z-index: 20;
+}
+
+#photo {
+	position: relative;
+	transform: skewX(12deg);
+	width: 130%;
+	left: -60px;
+	bottom: 50px;
+	transition: all 0.15s;
+}
+
+#photo:hover {
+	width: 150%;
+	left: -80px;
+}
