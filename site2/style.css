@@ -211,7 +211,7 @@ figure img {
 	.text-block { width: 210px;  }
 	.hello { font-size: 60px; }
 	.hello:before { height: 85px; }
-	figure { width: 80%; margin: 0px 10% 0px 10%; }
+	//figure { width: 80%; margin: 0px 10% 0px 10%; }
 	#name { font-size: 24px; }
 	#menu-elements { font-size: 45px; }
 
